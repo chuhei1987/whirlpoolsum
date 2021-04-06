@@ -5,7 +5,7 @@
 Whirlpool Hashsum Tool - ALBANESE Lab (c) 2020-2021
 
 Usage of whirlpoolsum:
-whirlpoolsum [-v] [-c &lt;hash.ext&gt;] -t &lt;file.ext&gt;
+whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
 
   -c string
         Check hashsum file.
