@@ -19,7 +19,7 @@ whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
 
 #### Generate hashsum list:
 <pre>
-$ ./whirlpoolsum -t "*.*" > hash.txt
+$ ./whirlpoolsum [-r] -t "*.*" > hash.txt
 </pre>
 ##### Always works in binary mode. 
 
