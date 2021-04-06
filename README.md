@@ -8,8 +8,8 @@ Usage of whirlpoolsum:
 whirlpoolsum [-v] [-c &lt;hash.ext&gt;] -t &lt;file.ext&gt;
 
   -c string
-  -r    Process directories recursively.
         Check hashsum file.
+  -r    Process directories recursively.
   -t string
         Target file/wildcard to generate hashsum list.
   -v    Verbose mode. (The exit code is always 0 in this mode)
