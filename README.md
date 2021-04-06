@@ -2,7 +2,7 @@
 ## whirlpoolsum Implementation written in Go
 
 <PRE>
-Whirlpool Hashsum Tool - ALBANESE Lab (c) 2020-2021
+Whirlpool Recursive Hashsum Tool - ALBANESE Lab (c) 2020-2021
 
 Usage of whirlpoolsum:
 whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
