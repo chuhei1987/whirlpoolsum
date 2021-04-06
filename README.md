@@ -21,11 +21,6 @@ whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
 <pre>
 $ ./whirlpoolsum -t "*.*" > hash.txt
 </pre>
-
-#### Generate recursive hashsum list:
-<pre>
-$ find . -type f -name "*.*" -exec ./whirlpoolsum -t '{}' \; > hash.txt 
-</pre>
 ##### Always works in binary mode. 
 
 #### Check hashsum file:
