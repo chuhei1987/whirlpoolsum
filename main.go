@@ -28,7 +28,7 @@ func main() {
         }
 
 
-        if *target != "" {
+        if *target != "" && *recursive == false {
 	files, err := filepath.Glob(*target)
 	if err != nil {
 	    log.Fatal(err)
@@ -45,6 +45,33 @@ func main() {
         }
     	fmt.Println(hex.EncodeToString(h.Sum(nil)), "*" + f.Name())
 	}
+	}
+
+
+        if *target != "" && *recursive == true {
+		err := filepath.Walk(".",
+		func(path string, info os.FileInfo, err error) error {
+			if err != nil {
+				return err
+			}
+			file, err := os.Stat(path)
+			if file.IsDir() {
+			} else {
+			h := whirlpool.New()
+			f, err := os.Open(path)
+			if err != nil {
+				log.Fatal(err)
+			}
+			if _, err := io.Copy(h, f); err != nil {
+				log.Fatal(err)
+			}
+			fmt.Println(hex.EncodeToString(h.Sum(nil)), "*" + f.Name())
+			}
+			return nil
+		})
+		if err != nil {
+			log.Println(err)
+		}
 	}
 
 
