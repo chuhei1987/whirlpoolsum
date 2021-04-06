@@ -11,7 +11,7 @@ whirlpoolsum [-v] [-c &lt;hash.ext&gt;] -t &lt;file.ext&gt;
         Check hashsum file.
   -t string
         Target file/wildcard to generate hashsum list.
-  -v    Verbose mode. (for CHECK command)
+  -v    Verbose mode. (The exit code is always 0 in this mode)
   </PRE>
   
 ### Examples:
