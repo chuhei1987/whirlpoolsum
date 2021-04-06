@@ -1,4 +1,4 @@
-# whirlpoolsum
+# WHIRLPOOLSUM(2)
 ## whirlpoolsum Implementation written in Go
 
 <PRE>
