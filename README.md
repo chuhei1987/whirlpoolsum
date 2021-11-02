@@ -1,9 +1,10 @@
 # WHIRLPOOLSUM(2)
-## whirlpoolsum Implementation written in Go
+[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/pedroalbanese/whirlpoolsum/blob/master/LICENSE.md) 
+[![GoDoc](https://godoc.org/github.com/pedroalbanese/whirlpoolsum?status.png)](http://godoc.org/github.com/pedroalbanese/whirlpoolsum)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/whirlpoolsum)](https://goreportcard.com/report/github.com/pedroalbanese/whirlpoolsum)
+### Whirlpool Recursive Hashsum Implementation written in Go
 
 <PRE>
-Whirlpool Recursive Hashsum Tool - ALBANESE Lab (c) 2020-2021
-
 Usage of whirlpoolsum:
 whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
 
