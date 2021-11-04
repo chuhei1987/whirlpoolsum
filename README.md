@@ -19,15 +19,15 @@ whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
 ### Examples:
 
 #### Generate hashsum list:
-<pre>
+```sh
 $ ./whirlpoolsum [-r] -t "*.*" > hash.txt
-</pre>
+```
 ##### Always works in binary mode. 
 
 #### Check hashsum file:
-<pre>
+```sh
 $ ./whirlpoolsum [-v] -c hash.txt
-</pre>
+```
 ##### Exit code is always 0 in vebose mode. 
 
 ## License
