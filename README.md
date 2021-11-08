@@ -2,6 +2,8 @@
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/pedroalbanese/whirlpoolsum/blob/master/LICENSE.md) 
 [![GoDoc](https://godoc.org/github.com/pedroalbanese/whirlpoolsum?status.png)](http://godoc.org/github.com/pedroalbanese/whirlpoolsum)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/whirlpoolsum)](https://goreportcard.com/report/github.com/pedroalbanese/whirlpoolsum)
+[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pedroalbanese/whirlpoolsum)](https://golang.org)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/pedroalbanese/whirlpoolsum)](https://github.com/pedroalbanese/whirlpoolsum/releases)
 ### Whirlpool Recursive Hashsum Implementation written in Go
 
 <PRE>
