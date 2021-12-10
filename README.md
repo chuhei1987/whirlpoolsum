@@ -8,13 +8,10 @@
 
 <PRE>
 Usage of whirlpoolsum:
-whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
-
+whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] &lt;file.ext&gt;
   -c string
         Check hashsum file.
   -r    Process directories recursively.
-  -t string
-        Target file/wildcard to generate hashsum list.
   -v    Verbose mode. (The exit code is always 0 in this mode)
   </PRE>
   
@@ -22,7 +19,7 @@ whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] -t &lt;file.ext&gt;
 
 #### Generate hashsum list:
 ```sh
-$ ./whirlpoolsum [-r] -t "*.*" > hash.txt
+$ ./whirlpoolsum [-r] "*.*" > hash.txt
 ```
 ##### Always works in binary mode. 
 
