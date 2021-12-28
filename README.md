@@ -1,5 +1,6 @@
 # WHIRLPOOLSUM(2)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://github.com/pedroalbanese/whirlpoolsum/blob/master/LICENSE.md) 
+[![GitHub downloads](https://img.shields.io/github/downloads/pedroalbanese/whirlpoolsum/total.svg?logo=github&logoColor=white)](https://github.com/pedroalbanese/whirlpoolsum/releases)
 [![GoDoc](https://godoc.org/github.com/pedroalbanese/whirlpoolsum?status.png)](http://godoc.org/github.com/pedroalbanese/whirlpoolsum)
 [![Go Report Card](https://goreportcard.com/badge/github.com/pedroalbanese/whirlpoolsum)](https://goreportcard.com/report/github.com/pedroalbanese/whirlpoolsum)
 [![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/pedroalbanese/whirlpoolsum)](https://golang.org)
