@@ -13,8 +13,7 @@ whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] &lt;file.ext&gt;
   -c string
         Check hashsum file.
   -r    Process directories recursively.
-  -v    Verbose mode. (The exit code is always 0 in this mode)
-  </PRE>
+  -v    Verbose mode. (The exit code is always 0 in this mode)</PRE>
   
 ### Examples:
 
