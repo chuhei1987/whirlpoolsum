@@ -9,11 +9,11 @@
 
 <PRE>
 Usage of whirlpoolsum:
-whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] &lt;file.ext&gt;
+whirlpoolsum [-c &lt;hash.ext&gt;] [-r] &lt;file.ext&gt;
   -c string
         Check hashsum file.
   -r    Process directories recursively.
-  -v    Verbose mode. (The exit code is always 0 in this mode)</PRE>
+</PRE>
   
 ### Examples:
 
@@ -21,15 +21,14 @@ whirlpoolsum [-v] [-c &lt;hash.ext&gt;] [-r] &lt;file.ext&gt;
 ```sh
 $ ./whirlpoolsum [-r] "*.*" > hash.txt
 ```
-##### Always works in binary mode. 
 
 #### Check hashsum file:
 ```sh
-$ ./whirlpoolsum [-v] -c hash.txt
+$ ./whirlpoolsum -c hash.txt
+$ echo $?
 ```
-##### Exit code is always 0 in vebose mode. 
 
 ## License
 
 This project is licensed under the ISC License.
-##### Copyright (c) 2020-2021 Pedro Albanese - ALBANESE Lab.
+##### Copyright (c) 2020-2022 Pedro F. Albanese - ALBANESE Research Lab.
